@@ -1,0 +1,430 @@
+
+body{
+	font-size:15px;
+	background-color:#F5FFDE;
+	text-align:center;
+	padding:50px 30px;
+	display:block;
+	margin:8px;
+	font-family:futura;
+	background:url('universe.jpg');
+}
+
+
+/*menus*/
+
+.menu{
+	list-style-type: none;
+
+}
+
+.header{
+	text-align:center;
+	padding-right:30px;
+
+
+}
+
+.Logo{
+	padding:5px;
+	padding-left:80px;
+}
+/*about*/
+.Logo1{
+	top:0%;
+	left:3%;
+	position:absolute;
+	width:60px;
+	height:60px;
+}
+
+.doted{
+	padding-left:35px;
+	width:295px;
+	height:10px;
+}
+
+
+.home {
+	background: #DEBD66;
+	padding:20px 40px;
+	border-radius: 40px;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+.home:hover {
+	color: purple;
+}
+
+.home1{
+	padding-top:10px;
+}
+
+.about{
+
+	background: #DEBD66;
+	padding: 20px 40px;
+	border-radius: 40px;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+.about:hover{
+	color:purple;
+}
+
+.about1{
+	padding-top:40px;
+}
+
+.work{
+	background: #DEBD66;
+	padding: 20px 40px;
+	border-radius: 40px;
+	display: inline-block;
+	color: ;
+	text-decoration: none;
+}
+
+.work:hover{
+	color:purple;
+}
+
+.work1{
+	padding-top:45px;
+}
+
+.contact{
+	background: #DEBD66;
+	padding: 20px 35px;
+	border-radius: 40px;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+.CT{
+	font-size:30px;
+}
+
+.CT1{
+	list-style-type:none;
+	color: black;
+	text-decoration: none;
+}
+.small{
+	background: #DEBD66;
+	padding: 10px 100px;
+	border-radius: 40px;
+	display: inline-block;
+
+}	
+
+.big{
+	background: #DEBD66;
+	padding: 10px 100px;
+	border-radius: 40px;
+	display: inline-block;
+	width:528px;
+}
+
+
+.contact:hover{
+	color:purple;
+}
+
+.contact1{
+	padding-top:50px;
+}
+.intro{
+	display: none;
+}
+
+.PH{
+	color:#f4e6d0;
+	font-family:Futura;
+}
+/*about*/
+
+.AM{
+	font-size:24px;
+	color:#f4e6d0;
+}
+
+
+
+.me{
+	padding-top:90px;
+	border:green;
+}
+
+/*work*/
+.MW{
+	font-size:30px;
+	color:#f3e7cf;
+}
+
+.social{
+	padding-top:200px;
+	display:inline;
+}
+
+.art{
+	width:900px;
+	height:500px;
+	padding-left:150px;
+}
+
+.workabout{
+	display:none;
+}
+
+/*photography*/
+.co{
+	padding-left:40px;
+}
+
+.co2{
+	padding-left:40px;
+}
+
+
+.C1{
+
+width:280px;
+height:230px;
+}
+
+.C2{
+width:280px;
+
+}
+
+.CF{
+	width:;
+}
+
+.small {
+  background: #DEBD66;
+  padding: 1px 30px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+/*queries*/
+
+@media(min-width:768px){
+/*home*/
+ul.menu li {
+	display:inline;
+	font-size:24px;
+}
+
+.intro{
+
+	font-size:24px;
+	color:#f3e7cf;
+	display: inline;
+	padding-right:400px;
+	padding-top:80px;
+	padding-left:200px;
+
+}
+
+.Logo{
+	width:200px;
+	height:200px;
+}
+
+.doted{
+	width:873px;
+	height:20px;
+}
+/*about*/
+.AM{
+	font-size:40px;
+	color:#f4e6d0;
+}
+
+.me{
+	width:500px;
+	height:450px;
+}
+
+.social{
+	width:50px;
+	height:50px;
+}
+
+.hia{
+	width:900px;
+	height:500px;
+	padding-left:250px;
+	padding-top:100px;
+
+}
+
+.am2{
+	font-size:24px;
+	color:#f3e7cf;
+}
+
+.icons1{
+	display:inline-block;
+	width:480px;
+	height:300px;
+
+}
+
+.icons2{
+	display:inline-block;
+	width:480px;
+	height:300px;
+}
+
+.icons3{
+	display:inline-block;
+	width:480px;
+	height:300px;
+}
+
+.icons4{
+	display:inline-block;
+	width:480px;
+	height:300px;
+}
+
+.ICON1{
+	width:180px;
+	height: 180px;
+	padding-top: 20px;
+}
+
+.MW{
+	font-size:40px;
+}
+
+.workabout{
+	display:none;
+}
+
+.PH{
+	color:#f4e6d0;
+	font-size:30px;
+}
+
+.C1{
+
+width:280px;
+height:230px;
+}
+
+.C2{
+width:400px;
+}
+
+.co2{
+ width:1000px;
+}
+
+@media(min-width:1443px){
+
+.intro{
+
+	display:block;
+	font-size:24px;
+	color:#f3e7cf;
+	display: inline;
+	padding-right: 500px;
+  	padding-top: 90px;
+  	padding-left: 200px;
+}	
+
+
+.ICON1{
+	width:180px;
+	height: 180px;
+	padding-top:0px;
+}
+
+.icons1{
+	display:inline-block;
+	width:1000px;
+	padding-left:180px;
+	padding-top:40px;
+
+}
+
+.icons2{
+	display:inline-block;
+	width:1000px;
+	padding-left:180px;
+
+}
+
+.icons3{
+	display:inline-block;
+	width:1000px;
+	padding-left:180px;
+
+}
+
+.icons4{
+	display:inline-block;
+	width:1000px;
+	padding-left:180px;
+}
+
+.workabout{
+	font-size:24px;
+	float:left;
+	display:inline-block;
+	color:#f4e6d0;
+
+}
+
+.CT{
+	font-size:40px;
+	color:#f4e6d0;
+}
+
+.C1{
+	width:400px;
+	height:300px;
+}
+
+.C2{
+width:500px;
+}
+ 
+.co2{
+	width:1300px;
+}
+
+body{
+
+	font-size:30px;
+	font-family:Futura;
+	color:#f4e6d0;
+}
+
+.form_text{
+
+  font-family:Futura;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: oblique;
+  color:#f4e6d0;
+  height: 15px;
+  padding-bottom:70px;
+}
+
+.art{
+	width:1400px;
+	height:500px;
+	padding-left:150px;
+}
+
+}
